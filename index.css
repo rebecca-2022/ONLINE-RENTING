@@ -10,15 +10,38 @@ html,body{
     color:black;
 }
 .icons{
-    margin-left: 500px;
+    scroll-margin-inline-end: 500px;
 }
 .house{
     margin-left: 400px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 10px;
     font-size: 30px;
-    color: darkgreen;
+    color: rgb(138, 42, 69);
 }
 .house:hover {
     font-size: 32px;
 }
+.house p{
+    margin-left: 400px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 10px;
+    font-size: 30px;
+    color: rgb(138, 42, 69);
+}
+.house icon{
+    display: flex;
+    flex-direction: row;
+
+}
+.comments {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 10px;
+    font-size: 0.85rem;
+  }
+  .comments li {
+    margin: 2px 0;
+    margin-left: 30px;
+    letter-spacing: 0.2px;
+  }
