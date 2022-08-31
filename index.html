@@ -1,41 +1,38 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ONLINE-RENTING</title>
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./images/">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text" href="./images/">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
-    <h1 >ONLINE-RENTING Application(cool Abode).</h1>
+    <h1 >Online-Renting Application(cool Abode).</h1>
+    
     <div class="house" id="my house">
         <div class="icons">
-        <i class="material-icons" style="font-size:48px;color:rgb(70, 43, 226)">house</i>
-        <i class="material-icons" style="font-size:48px;color:rgb(43, 64, 226)">house</i>
-        <i class="material-icons" style="font-size:48px;color:rgb(43, 49, 226)">house</i>
-        <i class="material-icons" style="font-size:48px;color:rgb(43, 92, 226)">house</i>
+            <h2>Nyumba Zetu Management</h2>
+        <i class="material-icons" style="font-size:48px;color:red">house</i>
         </div>
+        <p>Apartments Management System</p>
     </div>
-    <div class="house" id="the house">
-    <h1>Nyumba zetu appartment</h1>
-    <i class="fa fa-home" style="font-size:48px;color:red"></i>
-    <p>Appartment management system</p>  
- </div>
-    <div>
-        <img src="images/istockphoto-1396856251-1024x1024.jpg" alt="The image come here"height="700px"width='900px'>
+    <div class="image">
+        <img src="images/2896058b91da1b54d93d48ae668fc12b.jpg" alt=""height="500px" width="800px">
     </div>
-    <div class="like">
-        <h1>0 likes</h1>
-        <i class="fa fa-heart" style="font-size:48px;color:red"></i>
-    </div>
-    <ul id="comments-list" class="comments">
-        <li> The most coolest houses for renting!</li>
-        <li>come all and enjoy our houses!</li>
-    </ul>
-    <form id="comment-form" class="comment-form">
+    <div class="likes-section">
+        <span id="like-count" class="likes">0 likes</span>
+        <button id="like-button" class="like-button">♥</button>
+        
+      </div>
+      <ul id="comments-list" class="comments">
+        <li>Well build and smart houses!</li>
+        <li>Come and enjoy our nice houses!</li>
+      </ul>
+      <form id="comment-form" class="comment-form">
         <input
           class="comment-input"
           type="text"
@@ -47,34 +44,25 @@
       </form>
     <div class="project">
         <form action="/action_page.php" style="max-width:500px;margin:auto">
-            <h2>Mode of Payment</h2>
+            <h2>Register</h2>
             <div class="input-container">
               <i class="fa fa-user icon"></i>
               <input class="input-field" type="text" placeholder="Username" name="usrnm">
             </div>
-          
             <div class="input-container">
               <i class="fa fa-envelope icon"></i>
               <input class="input-field" type="text" placeholder="Email" name="email">
             </div>
-            
             <div class="input-container">
               <i class="fa fa-key icon"></i>
               <input class="input-field" type="password" placeholder="Password" name="psw">
             </div>
-
-            <div class="input-container">
-                <input class="input-field" type="text" placeholder="Phone Number:" name="text">
-            </div>
-
             <div class="input-container">
                 <input class="input-field" type="amount" placeholder="Amount paid:" name="Amnt">
               </div>
-          
-            <button type="submit" class="btn">Send</button>
+            <button type="submit" class="btn">Register</button>
           </form>
-
     </div>
-  <script src="./index.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>
