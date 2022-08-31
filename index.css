@@ -1,1 +1,6 @@
-
+.like{
+    display: pading;
+    flex-direction: row;
+    font-weight: bolder;
+    color:black;
+}
