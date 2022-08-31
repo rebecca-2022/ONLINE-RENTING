@@ -1,6 +1,24 @@
+
+html,body{
+    margin: 0;
+    background-color:rgb(240, 240, 240) ;
+}
 .like{
     display: pading;
     flex-direction: row;
     font-weight: bolder;
     color:black;
+}
+.icons{
+    margin-left: 500px;
+}
+.house{
+    margin-left: 400px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 10px;
+    font-size: 30px;
+    color: darkgreen;
+}
+.house:hover {
+    font-size: 32px;
 }
