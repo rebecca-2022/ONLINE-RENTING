@@ -25,3 +25,13 @@ likeBtn.addEventListener("click", function(){
   num = num + 1;
   flatalikeBtn.innerText = num + " likes";
 });
+// registration form
+const register=document.querySelector ("registration")
+register.addEventListener("submit",function (e) {
+  e.preventDefault();
+  let name=document. getElementById("name").value
+  let email=document.getElementById("email").value
+  let password=document.getElementById("password").value
+  let amount=document.getElementById("amount").value
+   e.target.reset();
+});

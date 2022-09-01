@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +12,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
-    <h1 >Online-Renting Application(cool Abode).</h1>
+    <h1 id="title" >Online-Renting Application(cool Abode).</h1>
     
     <div class="house" id="my house">
         <div class="icons">
@@ -21,7 +22,10 @@
         <p>Apartments Management System</p>
     </div>
     <div class="image">
-        <img src="images/2896058b91da1b54d93d48ae668fc12b.jpg" alt=""height="500px" width="800px">
+        <img src="images/beautiful-houses-in-the-world.jpg" alt=""height="500px" width="800px">    
+    </div>
+    <div>
+      <img src="images/maxresdefault.jpg" alt=""height="500px" width="800px>"
     </div>
     <div class="likes-section">
         <span id="like-count" class="likes">0 likes</span>
@@ -43,22 +47,22 @@
         <button class="comment-button" type="submit">Post</button>
       </form>
     <div class="project">
-        <form action="/action_page.php" style="max-width:500px;margin:auto">
+        <form class="registration"  style="max-width:500px;margin:auto">
             <h2>Register</h2>
             <div class="input-container">
               <i class="fa fa-user icon"></i>
-              <input class="input-field" type="text" placeholder="Username" name="usrnm">
+              <input id="name" class="input-field" type="text" placeholder="Username" name="usrnm">
             </div>
             <div class="input-container">
               <i class="fa fa-envelope icon"></i>
-              <input class="input-field" type="text" placeholder="Email" name="email">
+              <input id="email" class="input-field" type="text" placeholder="Email" name="email">
             </div>
             <div class="input-container">
               <i class="fa fa-key icon"></i>
-              <input class="input-field" type="password" placeholder="Password" name="psw">
+              <input id="password" class="input-field" type="password" placeholder="Password" name="psw">
             </div>
             <div class="input-container">
-                <input class="input-field" type="amount" placeholder="Amount paid:" name="Amnt">
+                <input id="amount" class="input-field" type="amount" placeholder="Amount paid:" name="Amnt">
               </div>
             <button type="submit" class="btn">Register</button>
           </form>
