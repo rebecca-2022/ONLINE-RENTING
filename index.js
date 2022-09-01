@@ -1,5 +1,16 @@
-let title = document.getElementById("card-title");
-let image = document.getElementById("card-image");
+
+const randomSee = document.getElementById("see");
+const display = document.getElementById("display")
+randomSee.addEventListener('click',randomPics);
+let random
+function randomPics(){
+  fetch('https://www.pexels.com/api')
+  .then((response )=> response.json())
+  .then((data) => {
+  console.log(data.image)
+  display.innerHTML="<img src="+data.image +" width='200px' height='200px'/>";
+});
+}
 let flataTitle = document.getElementById("card-title");
 let flataImage = document.getElementById("card-image");
 let flataLikes = document.querySelector(".likes-section");
