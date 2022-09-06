@@ -7,7 +7,7 @@
   .icon {
     padding: 10px;
     background: dodgerblue;
-    color: white;
+    color:white(16, 67, 150);
     min-width: 50px;
     text-align: center;
   }
@@ -21,7 +21,7 @@
   }
   .btn {
     background-color: dodgerblue;
-    color: white;
+    color:white;
     padding: 15px 20px;
     border: none;
     cursor: pointer;
@@ -138,7 +138,7 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     color: blue;
     text-align: center;
-    border-color: white;
+    border-colo:blue;
     border-color: white;
 }
 #biggest{
@@ -309,5 +309,8 @@ html{
     background-color: #2549D3;
     color: white;
 }
+
+  
+
 
 
