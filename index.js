@@ -4,11 +4,11 @@ const display = document.getElementById("display")
 randomSee.addEventListener('click',randomPics);
 let random
 function randomPics(){
-  fetch('https://www.pexels.com/api')
+  fetch('http://localhost:3000/houses') 
   .then((response )=> response.json())
   .then((data) => {
   console.log(data.image)
-  display.innerHTML="<img src="+data.image +" width='200px' height='200px'/>";
+  display.innerHTML="<img src="+data[0].image +" width='200px' height='200px'/>";
 });
 }
 let flataTitle = document.getElementById("card-title");
