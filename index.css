@@ -129,9 +129,9 @@ h1{
   outline: none;
 }
 #title{
-  font-style: italic;
+  font-style:initial;
   font-family: "Audiowide";
-  color: rgb(0, 13, 255);
+  color:blue;
   
 }
 
@@ -173,7 +173,7 @@ h1{
 #esteemed{
     display: block;
     text-align: center;
-    border-color: white;
+    border-color:blue;
 }
 #esteemedc{
     color: blue;
@@ -247,6 +247,7 @@ html{
     border-bottom: solid 1px;
     align-items: center;
     justify-content: space-between;
+    background-color: aqua;
 }
 .description{
     display: flex;
@@ -307,7 +308,7 @@ html{
     flex: row;
     align-items: center;
     justify-content: space-around;
-    background-color:skyblue;
+    background-color:blue;
     color: white;
 }
 
