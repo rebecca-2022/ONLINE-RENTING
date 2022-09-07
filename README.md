@@ -22,7 +22,7 @@ Technology Used
 HTML - which was used to build the structure of the pages.
 
 CSS - which was used to style the pages incuding the left aside navigation bar
-index.js -Which was used to build the functioning 
+index.js -Which was used to build the functioning /used in dom manupulation
 Go Back to the top
 
 Licence
