@@ -311,10 +311,9 @@ html{
     background-color:blue;
     color: white;
 }
-.body{
-  background-color: aqua;
-}
-body {background-color: coral;}
+
+
+body {background-color: rgb(255, 165, 80);}
 
 
   
